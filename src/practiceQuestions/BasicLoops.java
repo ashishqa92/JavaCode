@@ -1,4 +1,4 @@
-package interviewQuestions;
+package practiceQuestions;
 
 public class BasicLoops {
 
