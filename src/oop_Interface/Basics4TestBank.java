@@ -18,7 +18,7 @@ public class Basics4TestBank {
 		hs.cashback();
 
 		// Dynamic Polymorphism
-		// Child class variable can be referred by parent interface interface var
+		// Child class variable/method can be referred by parent interface interface var
 
 		Basic1USBank us = new Basics3HSBCBank();
 		us.credit();

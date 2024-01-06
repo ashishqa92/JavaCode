@@ -13,6 +13,8 @@ public class Employee {
 	// name of the const... will be same as the class name
 	// const.. can not have any return type, no void, no return
 	// const... will be called when you create the object of the class
+	// cons.. can't have non access modifier
+	// if we don't create constructor then default hidden constructor will be created automatically
 
 	// func may or may not return value but const.. will never return any value
 	// func name can be anything, but const.. name will be same as the class name

@@ -8,6 +8,14 @@ public class Employee {
 
 		// Map(I) <--- HashMap(C)
 
+		/*
+		 * HashMap never maintains any index/order. However, List contains. Hash map, we
+		 * add anything using 'put (key, value)' in List we use 'add (value)' Has map to print we use get(key), in last we use get(index).
+		 * In hashmap we should try to have duplicate keys (because it will give value of latest duplicate key).
+		 * In hashmap values can be duplicate.
+		 * In hashmap we can have null key. We can have multiple null keys as well however it will give value of latest null key.
+		 */
+
 		HashMap<String, String> empMap = new HashMap<String, String>();
 
 		empMap.put("A", "Tom");

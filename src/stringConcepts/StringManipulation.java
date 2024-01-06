@@ -24,6 +24,8 @@ public class StringManipulation {
 		System.out.println(s.indexOf('j'));
 		System.out.println(s.indexOf('i'));// 2 //1st occurrence of i
 		System.out.println(s.indexOf('i', s.indexOf('i') + 1));// 2nd occurrence of i
+		int secondOccurence = s.indexOf('i', s.indexOf('i') + 1);
+		// System.out.println(s.indexOf('i', secondOccurence + 1)); //3rd occurence
 
 		System.out.println(s.indexOf("code"));// 16
 		System.out.println(s.indexOf("python"));// -1

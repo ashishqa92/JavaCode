@@ -32,7 +32,7 @@ public class TestHospital {
 		uk.pediaServices();
 
 		// down casting: CT -- not allowed
-		// parent interface object can be referred by chils class ref variable
+		// parent interface object can be referred by childs class ref variable
 		// FortisHopital fh1 = new USMedical();
 
 	}

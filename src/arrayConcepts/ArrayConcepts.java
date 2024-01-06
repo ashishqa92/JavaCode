@@ -15,8 +15,8 @@ public class ArrayConcepts {
 		/*
 		 * Disadvantages of array:- 
 		 * -- index/size is fixed, its called static array 
-		 * -- To overcome this problem we use collections 
-		 * -- ArrayList, Hashtable (dynamic array) store only similar data types
+		 * -- To overcome this problem we use collections like ArrayList, Hashtable (dynamic array)
+		 * -- Store only similar data types
 		 * -- To overcome this problem we use Object array
 		 * 
 		 * /two major limitations:

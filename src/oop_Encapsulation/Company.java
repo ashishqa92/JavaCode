@@ -6,7 +6,9 @@ package oop_Encapsulation;
     for example, a capsule which is mixed of several medicines. Or a Laptop, we can use it, but can't see circuits.
     We are basically hiding the internal property and giving the access to public layer
    
-   Another example is ATM, we can't access the internal system of ATM*/
+   Another example is ATM, we can't access the internal system of ATM
+   Go to Eclipse -> right click -> source -> Generate getters and setters
+   */
 
 public class Company {
 

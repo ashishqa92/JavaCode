@@ -1,6 +1,13 @@
 package exceptionHandling;
 
 public class ThrowKeyword {
+	/**
+	 * 
+	 * The Java throw keyword is used to throw an exception explicitly.
+	 * We can also define our own set of conditions and throw an exception explicitly using throw keyword.
+	 * Syntax: create object of Exception class
+	 * throw new exception_class("error message");  
+	 */
 
 	public static void main(String[] args) {
 
