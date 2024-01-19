@@ -69,7 +69,7 @@ public class IfElseConditions {
 		
 		//////////////////////////////////////////////////////////////////////
 
-		boolean t = false;
+		boolean t = true;
 		if (t) {
 			System.out.println("PASS");
 		} else {
