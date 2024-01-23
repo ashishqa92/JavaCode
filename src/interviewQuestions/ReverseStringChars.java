@@ -3,18 +3,17 @@ package interviewQuestions;
 public class ReverseStringChars {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
 		String s = "Java programming hello world";
-		String reverseString = "";
+		reverseStringChar(s);
+	}
 
-		int length = s.length();
-
+	public static void reverseStringChar(String str) {
+		int length = str.length();
+		String reverse = "";
 		for (int i = length - 1; i >= 0; i--) {
-			reverseString = reverseString + s.charAt(i);
+			reverse = reverse + str.charAt(i);
 		}
-
-		System.out.println(reverseString);
+		System.out.println(reverse);
 	}
 
 }

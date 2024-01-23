@@ -10,11 +10,17 @@ public class PasswordCheck {
 		 */
 
 		String password = "Ting123*";
-		if (password.length() == 8 && password.matches(".*[a-zA-Z].*") && password.matches(".*\\d.*")
-				&& password.matches(".*[^a-zA-Z\\d].*")) {
+		passwordCheck(password);
+	}
+
+	public static void passwordCheck(String str) {
+
+		if (str.length() == 8 && str.matches(".*[a-zA-Z].*") && str.matches(".*\\d.*")
+				&& str.matches(".*[^a-zA-Z\\d].*")) {
 			// Contains at least one alphabet character
 			// Contains at least one digit
 			// Contains at least one special character
+
 			System.out.println("Password is acceptable");
 		} else {
 			System.out.println("Password is not acceptable");

@@ -6,11 +6,15 @@ public class CamelCaseWords {
 		// Write a program to find words from the given Camelcasing string?
 		// Ex - String word = "IAmAJavaProgrammerWhatAboutYou";
 		String word = "IAmAJavaProgrammerWhatAboutYou";
-        String[] words = word.split("(?=[A-Z])");
-        
-        for (String e : words) {
-            System.out.println(e);
-        }
+		camelCaseWord(word);
+	}
+
+	public static void camelCaseWord(String str) {
+		String[] word = str.split("(?=[A-Z])");
+
+		for (String e : word) {
+			System.out.println(e);
+		}
 	}
 
 }

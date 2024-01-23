@@ -74,6 +74,10 @@ public class StringConcatenation {
 
 		char t = 'z';
 		System.out.println((int) t);
+		
+		int xx = 61;
+		char ch = (char) xx;
+		System.out.println(ch);
 
 	}
 
