@@ -5,7 +5,7 @@ public class LoginPage extends Page {
 	int timeOut = 200;
 
 	public LoginPage() {
-		super(10, 20);
+		super();
 		System.out.println("Hi");
 	}
 

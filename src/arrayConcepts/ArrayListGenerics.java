@@ -13,6 +13,8 @@ public class ArrayListGenerics {
 		ar.add(200);
 		ar.add(300);
 		ar.add(400);
+		
+		//System.out.println(ar);
 
 		// for each:
 		for (Integer e : ar) {

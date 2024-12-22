@@ -1,15 +1,11 @@
-package interviewQuestions;
+package javaInterviewQuestions;
 
 public class ReverseStringChars {
 
 	/*
-	 * Input: "ava programming hello world"
+	 * Input: "Java programming hello world"
 	 * Output: "dlrow olleh gnimmargorp avaJ"
 	 */
-	public static void main(String[] args) {
-		String s = "Java programming hello world";
-		reverseStringChar(s);
-	}
 
 	public static void reverseStringChar(String s) {
 		int length = s.length();
@@ -18,6 +14,11 @@ public class ReverseStringChars {
 			reverse = reverse + s.charAt(i);
 		}
 		System.out.println(reverse);
+	}
+
+	public static void main(String[] args) {
+		String s = "Java programming hello world";
+		reverseStringChar(s);
 	}
 
 }

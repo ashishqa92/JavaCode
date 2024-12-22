@@ -8,7 +8,7 @@ public class SortStringsByLength {
 	public static void main(String[] args) {
 		// Write a program sort string of ArraList as per the length of the string?
 		
-		ArrayList<String> stringList = new ArrayList<>();
+		ArrayList<String> stringList = new ArrayList<String>();
         stringList.add("apple");
         stringList.add("banana");
         stringList.add("orange");

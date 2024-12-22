@@ -15,10 +15,10 @@ public class DataTypes {
              1. Numeric
                i Integral
                   * Integer
-                     o byte (size: 1 byte i.e. 8 bits, range: -128 to 127)
-                     o short (size: 2 bytes, range: -32768 to 32767)
-                     o int (size: 4 bytes, range: - 2147483648 to 2147483647)
-                     o long (size: 8 bytes, range: - 9023372036854775808 to 9023372036854775807) 
+                     o byte (size: 1 byte i.e. 8 bits, range: -128 to 127 => -2^7 to 2^7-1)
+                     o short (size: 2 bytes, range: -32768 to 32767 => -2^15 to 2^15-1)
+                     o int (size: 4 bytes, range: - 2147483648 to 2147483647 => -2^31 to 2^31-1)
+                     o long (size: 8 bytes, range: - 9023372036854775808 to 9023372036854775807 => -2^63 to 2^63-1) 
                     * Floating Point
                      o float (size: 4 bytes, range: after point upto 7 decimal digits)
                      o double (size: 8 bytes, rage: after point upto 16 decimal digits)

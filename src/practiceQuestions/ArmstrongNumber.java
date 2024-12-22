@@ -32,7 +32,7 @@ public class ArmstrongNumber {
 	public static void main(String[] args) {
 		
 		isArmstrongNumner(153);
-		isArmstrongNumner(370);
+		isArmstrongNumner(470);
 
 	}
 

@@ -24,6 +24,9 @@ public class ArrayListMethods {
 		ArrayList<String> l3 = new ArrayList<String>(Arrays.asList("B", "A", "C", "D", "F"));
 
 		System.out.println(l1.equals(l3));
+		
+		Collections.reverse(l3);
+		System.out.println(l3);
 
 		System.out.println(l3);
 		Collections.sort(l3);

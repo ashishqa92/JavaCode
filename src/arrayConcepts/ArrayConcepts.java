@@ -1,5 +1,8 @@
 package arrayConcepts;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class ArrayConcepts {
 
 	public static void main(String[] args) {
@@ -104,6 +107,17 @@ public class ArrayConcepts {
 		for (String st : lang) {
 			System.out.println(index+":"+st);
 			index++;
+		}
+		
+		//Array Literals
+		int k[] = {7, 11, 12, 1, 2, 3, 4, 5, 6};
+		Arrays.sort(k);
+		System.out.println(k.length);
+		System.out.println(Arrays.toString(k));
+		
+		//int count=0;
+		for (int e : k) {
+			System.out.println(e);
 		}
 
 	}

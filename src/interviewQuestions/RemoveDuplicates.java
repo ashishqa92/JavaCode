@@ -11,10 +11,11 @@ public class RemoveDuplicates {
 
 	        ArrayList<Integer> list = new ArrayList<>(List.of(1, 2, 3, 2, 4, 5, 1, 6, 7, 8, 9, 5));
 	        LinkedHashSet<Integer> set = new LinkedHashSet<>(list);
-	        list.clear();
-	        list.addAll(set);
+			/*
+			 * list.clear(); list.addAll(set);
+			 */
 
-	        System.out.println("List after removing duplicates: " + list);
+	        System.out.println("List after removing duplicates: " + set);
 
 	}
 
