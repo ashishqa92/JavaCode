@@ -1,25 +1,32 @@
 package javaInterviewQuestions;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.LinkedHashSet;
-
 public class Test {
 
-	public static void reverseWords(String s) {
+	public static void isArmstrongNumber(int number) {
 
-		String reverse = "";
-		for (int i = s.length() - 1; i >= 0; i--) {
-			reverse = reverse + s.charAt(i);
+		int remainder = 0;
+		int cube = 0;
+		int originalNumber;
+		
+		originalNumber = number;
+		
+		while(number>0) {
+			remainder = number%10;
+			cube = cube + (remainder*remainder*remainder);
+			number = number/10;
 		}
-		System.out.println(reverse);
+		if (originalNumber == cube) {
+			System.out.println(originalNumber + " is an Armstrong number");
+		}
+		else {
+			System.out.println(originalNumber + " isn't an Armstrong number");
+		}
+		
 	}
 
 	public static void main(String[] args) {
 
-		String s = "Java programming hello world for Ashish";
-
-		Test.reverseWords(s);
+		isArmstrongNumber(125);
 	}
 
 }

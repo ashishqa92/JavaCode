@@ -9,7 +9,7 @@ public class FactorialNumber {
 		if (num == 0) {
 			return 1;
 		} else {
-			for (int i = 1; i < num; i++) {
+			for (int i = 1; i <= num; i++) {
 				fact = fact * i;
 			}
 			return fact;
