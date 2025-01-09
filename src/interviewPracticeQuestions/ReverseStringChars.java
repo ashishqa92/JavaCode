@@ -1,9 +1,9 @@
-package interviewQuestions;
+package interviewPracticeQuestions;
 
 public class ReverseStringChars {
 
 	/*
-	 * Input: "ava programming hello world"
+	 * Input: "Java programming hello world"
 	 * Output: "dlrow olleh gnimmargorp avaJ"
 	 */
 	public static void main(String[] args) {

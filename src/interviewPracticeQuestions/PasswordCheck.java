@@ -1,4 +1,4 @@
-package interviewQuestions;
+package interviewPracticeQuestions;
 
 public class PasswordCheck {
 

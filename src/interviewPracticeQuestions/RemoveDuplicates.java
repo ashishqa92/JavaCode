@@ -1,4 +1,4 @@
-package interviewQuestions;
+package interviewPracticeQuestions;
 
 import java.util.ArrayList;
 import java.util.LinkedHashSet;

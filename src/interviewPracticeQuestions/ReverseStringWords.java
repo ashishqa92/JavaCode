@@ -1,4 +1,4 @@
-package interviewQuestions;
+package interviewPracticeQuestions;
 
 public class ReverseStringWords {
 
@@ -15,10 +15,11 @@ public class ReverseStringWords {
 	}
 
 	public static void reverseSentenceEachWord(String str) {
-		String[] wordArray = str.split("\\s+");
+		String[] words = str.split("\\s+");
 		String reverse = "";
-		for (int i = wordArray.length - 1; i >= 0; i--) {
-			reverse = reverse + wordArray[i] + " ";
+
+		for (int i = words.length - 1; i >= 0; i--) {
+			reverse = reverse + words[i] + " ";
 		}
 		System.out.println(reverse.trim());
 

@@ -1,6 +1,6 @@
-package interviewQuestions;
+package interviewPracticeQuestions;
 
-public class CheckPalindromeString {
+public class PalindromeString {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -10,9 +10,9 @@ public class CheckPalindromeString {
 		System.out.println("Is '" + str + "' a palindrome? " + isPalindrome);
 	}
 
-	static boolean isPalindrome(String input) {
-		String reversed = new StringBuilder(input).reverse().toString();
-		return input.equalsIgnoreCase(reversed);
+	static boolean isPalindrome(String inputString) {
+		String reversed = new StringBuilder(inputString).reverse().toString();
+		return inputString.equals(reversed);
 
 	}
 
