@@ -7,15 +7,17 @@ import java.util.List;
 public class RemoveDuplicates {
 
 	public static void main(String[] args) {
-		// Write program to remove duplicate element from Array list?
+		// Write program to remove duplicate element from Array?
 
-	        ArrayList<Integer> list = new ArrayList<>(List.of(1, 2, 3, 2, 4, 5, 1, 6, 7, 8, 9, 5));
-	        LinkedHashSet<Integer> set = new LinkedHashSet<>(list);
-			/*
-			 * list.clear(); list.addAll(set);
-			 */
+		int[] array = { 1, 2, 3, 2, 4, 5, 1, 6, 7, 8, 9, 5 };
 
-	        System.out.println("List after removing duplicates: " + set);
+		LinkedHashSet<Integer> set = new LinkedHashSet<Integer>();
+
+		for (int e : array) {
+			set.add(e);
+		}
+
+		System.out.println("List after removing duplicates: " + set);
 
 	}
 
