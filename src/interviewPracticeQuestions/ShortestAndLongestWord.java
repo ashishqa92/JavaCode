@@ -14,7 +14,7 @@ public class ShortestAndLongestWord {
 			if (e.length() < shortestWord.length()) {
 				shortestWord = e;
 			}
-			if (e.length() > longestWord.length()) {
+			else if (e.length() > longestWord.length()) {
 				longestWord = e;
 			}
 		}

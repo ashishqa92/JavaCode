@@ -14,14 +14,15 @@ public class AAAAAOrder {
 	 * 10. ReverseWordsInSentence
 	 * 11. ReverseStringWords
 	 * 12. ReverseStringChars
-	 * 13. CountCharactersInString && CountCharactersInStringArray
-	 * 14. MissingNumberInArray
-	 * 15. PalindromeString
-	 * 16. ShortestAndLongestWord
-	 * 17. RemoveDuplicates
-	 * 18. SwapStrings
-	 * 19. VowelCount
-	 * 20. PasswordCheck
+	 * 13. ReverseStringMaintainOrder
+	 * 14. CountCharactersInString && CountCharactersInStringArray && CountWordsInString
+	 * 15. MissingNumberInArray
+	 * 16. PalindromeString
+	 * 17. ShortestAndLongestWord
+	 * 18. RemoveDuplicates
+	 * 19. SwapStrings
+	 * 20. VowelCount
+	 * 21. PasswordCheck
 	 * 
 	 * 
 	 * 

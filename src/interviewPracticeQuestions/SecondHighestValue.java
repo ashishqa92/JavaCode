@@ -1,7 +1,5 @@
 package interviewPracticeQuestions;
 
-import java.util.Arrays;
-
 public class SecondHighestValue {
 
 	public static void main(String[] args) {
