@@ -9,28 +9,22 @@ public class ReverseStringWords {
 		 * programming Java a = 3
 		 */
 
-		String s = "Java programming hello world for Ashish";
+		String s = "Java programming hello world";
 		reverseSentenceEachWord(s);
 
 	}
 
 	public static void reverseSentenceEachWord(String str) {
-		String[] words = str.split("\\s+");
-		String reverse = "";
-
-		for (int i = words.length - 1; i >= 0; i--) {
-			reverse = reverse + words[i] + " ";
-		}
-		System.out.println(reverse.trim());
-
-		int countA = 0;
-		for (char e : str.toCharArray()) {
-
-			if (e == 'a' || e == 'A') {
-				countA++;
-			}
-		}
-		System.out.println("count of A is : " + countA);
+		
+//		String reversed = "";
+//		for(int i = str.length()-1; i>=0; i--) {
+//			reversed = reversed+str.charAt(i);
+//		}
+//		
+//		System.out.println(reversed);
+		
+		String reversed = new StringBuffer(str).reverse().toString();
+		System.out.println(reversed);
 	}
 
 }

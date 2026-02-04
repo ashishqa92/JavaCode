@@ -1,8 +1,7 @@
 package interviewPracticeQuestions;
 
-import java.util.ArrayList;
 import java.util.LinkedHashSet;
-import java.util.List;
+import java.util.Set;
 
 public class RemoveDuplicates {
 
@@ -11,7 +10,7 @@ public class RemoveDuplicates {
 
 		int[] array = { 1, 2, 3, 2, 4, 5, 1, 6, 7, 8, 9, 5 };
 
-		LinkedHashSet<Integer> set = new LinkedHashSet<Integer>();
+		Set<Integer> set = new LinkedHashSet<Integer>();
 
 		for (int e : array) {
 			set.add(e);

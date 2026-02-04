@@ -23,6 +23,8 @@ public class AAAAAOrder {
 	 * 19. SwapStrings
 	 * 20. VowelCount
 	 * 21. PasswordCheck
+	 * 22. Ascending Order
+	 * 23. Descending Order
 	 * 
 	 * 
 	 * 

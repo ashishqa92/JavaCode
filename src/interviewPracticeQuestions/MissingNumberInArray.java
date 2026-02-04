@@ -1,6 +1,7 @@
 package interviewPracticeQuestions;
 
-import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.Set;
 
 public class MissingNumberInArray {
 
@@ -9,7 +10,7 @@ public class MissingNumberInArray {
 		int n = 10; // Total numbers including the missing ones (1 to n)
 
 		// Create a HashSet containing all numbers from 1 to n
-		HashSet<Integer> set = new HashSet<>();
+		Set<Integer> set = new LinkedHashSet<Integer>();
 		for (int i = 1; i <= n; i++) {
 			set.add(i);
 		}
